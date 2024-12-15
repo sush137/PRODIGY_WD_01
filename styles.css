@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+nav.scrolled {
+    background-color: #555;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #00bcd4;
+}
+.content {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.section-1 {
+    background-color: #f4f4f4;
+}
+
+.section-2 {
+    background-color: #ddd;
+}
+
+.section-3 {
+    background-color: #bbb;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.right-image-container{
+    float: right;
+}
+#firstpage {
+    background-image: url('./assets/construct.img9.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0; 
+    color: white; 
+}
+
+.secondpage{
+    background-color:brown;
+}
+#secondpage {
+    background-image: url('./assets/construct.img9.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0; 
+    color: white;
+}
+.left-image {
+    margin-left: 20px; 
+    max-width: 90%; 
+    height: 90%;
+}
+
+.text2 {
+    margin-right: 20px; 
+}
+#thirdpage {
+    background-image: url('./assets/construct.img7.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0; 
+    color: white;
+}
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+.dot-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.dot-list li {
+    font-size: 1.2rem; 
+    margin-bottom: 10px; 
+}
+.fourthpage {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    padding: 20px; 
+    
+}
+
+.text4 {
+    margin: 0; 
+}
+.text4 {
+    margin-left: 20px; 
+    margin-top: 5px; 
+    padding: 10px; 
+}
+.text4{
+    margin-top: 10%;
+    padding-top: 5%;
+}
+.fourthpage {
+    position: relative;
+    height: 100vh; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.text4 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    padding: 20px; 
+    margin: 0; 
+}
+.text4 {
+    text-align: center; 
+    margin: 0; 
+    width: 100%;
+    
+}
+#fifthpage {
+    background-image: url('./assets/construct.img8.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0; 
+    color: white;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 40px 20px; 
+    text-align: left
+
+}
